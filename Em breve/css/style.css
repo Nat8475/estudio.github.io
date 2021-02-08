@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*index*/
+
+body{
+    background-color:  black;
+}
+
+.text{
+    width: 1000px;
+    padding: 30px;
+    margin: 10px;
+    color: white;
+}
+
+.text > h1{
+    color:  #8B0000;
+    font-size: 20px;
+    font-family: tahoma;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.text > p{
+    color: white;
+    font-size: 17px;
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    line-height: 17px;
+    margin-top: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    width: 900px;
+    margin: 10px auto;
+    background-color:  #8B0000;
+}
+
+.menu a{
+    color:  black;
+    font-size: 18px;
+    font-style: italic;
+    margin: 30px;
+    border-left: 2px solid black;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.criador{
+    width: 700px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    background-color:  #8B0000;
+}
+
+.criador h1{
+    color:  black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: tahoma;
+    font-style: italic;
+    padding: 4px;
+    margin: 0;
+}
+
+#epc{
+    position: absolute;
+    right: 0;
+    ;
+}
+
+#egc{
+    position: absolute;
+    left: 0;
+}
+
+#sj{
+    margin: 100px 250px;
+    margin-left: 420px;
+}
+
+/*Convites*/
+
+.convites{
+    background-color: #EE3B3B;
+}
+
+.ctext{
+    width: 1000px;
+    padding: 30px;
+    margin: 10px;
+    color: black;
+}
+
+.ctext > h1{
+    color: black;
+    font-size: 20px;
+    font-family: tahoma;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.ctext > p{
+    color: white;
+    font-size: 17px;
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    line-height: 17px;
+    margin-top: 12px;
+}
+
+.cmenu{
+    width: 900px;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.cmenu a{
+    color: #EE3B3B;
+    font-size: 18px;
+    font-style: italic;
+    margin: 30px;
+    border-left: 2px solid #EE3B3B;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.ccriador{
+    width: 700px;
+    margin: 0;
+    position: flex;
+    bottom: 0;
+    background-color: black;
+}
+
+.ccriador h1{
+    color: #EE3B3B;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: tahoma;
+    font-style: italic;
+    padding: 4px;
+    margin: 0;
+}
+
+.Convites{
+    font-size: 12px;
+    font-family: tahoma;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+/*Sobre*/
+
+.sobre{
+    background-color: #1E90FF;
+}
+
+.stext{
+    width: 1000px;
+    padding: 30px;
+    margin: 10px;
+    color: white;
+}
+
+.stext > h1{
+    color: black;
+    font-size: 20px;
+    font-family: tahoma;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.stext > p{
+    color: white;
+    font-size: 17px;
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    line-height: 17px;
+    margin-top: 12px;
+}
+
+.smenu{
+    width: 900px;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.smenu a{
+    color: #1E90FF;
+    font-size: 18px;
+    font-style: italic;
+    margin: 30px;
+    border-left: 2px solid #1E90FF;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.scriador{
+    width: 700px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+}
+
+.scriador h1{
+    color: #1E90FF;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: tahoma;
+    font-style: italic;
+    padding: 4px;
+    margin: 0;
+}
+
+/*Contato*/
+
+.Contato{
+    background-color: #FFA500;
+}
+
+
+.co_text{
+    width: 1000px;
+    padding: 30px;
+    margin: 10px;
+    color: black;
+}
+
+.co_text > h1{
+    color: black;
+    font-size: 20px;
+    font-family: tahoma;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.co_text > p{
+    color: white;
+    font-size: 17px;
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    line-height: 17px;
+    margin-top: 12px;
+}
+
+.co_menu{
+    width: 900px;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.co_menu a{
+    color: #FFA500;
+    font-size: 18px;
+    font-style: italic;
+    margin: 30px;
+    border-left: 2px solid #FFA500;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.co_criador{
+    width: 700px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+}
+
+.co_criador h1{
+    color: #FFA500;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: tahoma;
+    font-style: italic;
+    padding: 4px;
+    margin: 0;
+}
+
+/*Twitch*/
+
+.Twitch{
+    background-color: darkmagenta;
+}
+
+.tw_text{
+    width: 1000px;
+    padding: 30px;
+    margin: 10px;
+    color: black;
+}
+
+.tw_text > h1{
+    color: black;
+    font-size: 20px;
+    font-family: tahoma;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.tw_text > p{
+    color: white;
+    font-size: 17px;
+    font-family: tahoma;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    line-height: 17px;
+    margin-top: 12px;
+}
+
+.tw_menu{
+    width: 900px;
+    margin: 10px auto;
+    background-color: black;
+}
+
+.tw_menu a{
+    color: darkmagenta;
+    font-size: 18px;
+    font-style: italic;
+    margin: 30px;
+    border-left: 2px solid darkmagenta;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.tw_criador{
+    width: 700px;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+}
+
+.tw_criador h1{
+    color: darkmagenta;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: tahoma;
+    font-style: italic;
+    padding: 4px;
+    margin: 0;
+}
+
+.tw_canais{
+    font-size: 12px;
+    font-family: tahoma;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
